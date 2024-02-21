@@ -23,12 +23,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-  - id: 1panel # unique identifier
-    name: 1panel.penhison.top
-    description: '1panel' # default=empty
-    url: 'https://1panel.penhison.top/' # URL to fetch
+  - id: proxy # unique identifier
+    name: proxy.penhison.top
+    description: 'proxy by cloudflare worker' # default=empty
+    url: 'https://proxy.penhison.top/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
